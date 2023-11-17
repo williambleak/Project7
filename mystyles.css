@@ -1,0 +1,118 @@
+<style>
+    body{
+        background-color: #3edb26b6;
+        color: #094001;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: medium;
+    }
+    h1{
+        color: #107300;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: larger;
+    }
+    h2{
+        color: #107300;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: large;
+    }
+    h3{
+        color: #107300;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: medium;
+    }
+    p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: medium;
+    }
+    a:link{
+        color: #19ba00;
+    }
+    .imgright{
+        float: right;
+        padding-left: 10px;
+    }
+    .imgleft{
+        float: left;
+        padding-right: 20px
+    }
+    table{
+        width: 100%;
+        height: 150px;
+        padding: 1px;
+        border-spacing: 2px;
+    }
+    th{
+        border-spacing: 5px;
+        border-collapse: seperate;
+        background-color: #19ba00;
+    }
+    tr{
+        border-spacing: 5px;
+        border-collapse: seperate;
+        color: #094001;
+    }
+    td{
+        border-spacing: 5px;
+        border-collapse: seperate;
+        background-color: #09400175;
+        color: #094001;
+    }
+    caption{
+        border-spacing: 5px;
+        border-collapse: seperate;
+        color: #094001;
+    }
+    #container{
+        width: 900px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border:1px solid black;
+        background-color: white;
+    }
+    header{
+        background-color: black;
+        height: 900px;
+        border: 10px white;
+        padding: 10px;
+        margin: 8px;
+    }
+    nav{
+        margin-top:0;
+    }
+    nav ul{
+        display: flex;
+        flex-direction: row-reverse;
+        background-color: black;
+    }
+    nav ul li{
+        list-style-type: none;
+        margin: 2px;
+        padding: 4px;
+        background-color: white;
+        color: black;
+        border-radius: 2px;
+    }
+    nav ul li:hover{
+        background-color: black;
+        color: white;
+    }
+    nav ul li a{
+        background-color: white;
+        color: black;
+        border-radius: 2px;
+    }
+    section{
+        width: 900px;
+        background-image:url("reference to my image.jpg");
+        background-repeat: repeat-y;
+    }
+    article p{
+        text-align: left;
+    }
+    footer{
+        width: 900px;
+        background-color: white;
+        height: 100px;
+    }
+</style>
