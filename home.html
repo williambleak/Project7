@@ -4,11 +4,10 @@
 <meta charset="UTF-8">
 <title>Backyard Birds Home</title>
 <link rel="stylesheet" href="mystyles.css">
-
+<script type="text/javascript" src="myscripts.js"></script>
 </head>
 
-<body onload="">
-    <script type="text/javascript" src="myscripts.js"></script>
+<body onload="preloadImages()">
     <div id="container">
         <header>
             <nav>
@@ -20,7 +19,11 @@
                     <li><a>Favorites</a></li>
                 </ul>
             </nav>
-            <img src="Images\Images\Logo.png" alt="Logo">
+            <div>
+                <a href=""
+                onmouseover="document.getElementById('logo').src='Images/';"
+                onmouseout="document.getElementById('logo').src='Logo.png';
+                "> <img src="Logo.png" alt="Logo" id="logo"></a> </div>
             <img src="Images\Images\Banner.png" alt="Banner">
         </header>
         <section>
