@@ -1,4 +1,4 @@
-<style>
+
     body{
         background-color: #3edb26b6;
         color: #094001;
@@ -68,12 +68,12 @@
         margin-left: auto;
         margin-right: auto;
         border:1px solid black;
-        background-color: white;
+        background-color: #19ba00;
     }
     header{
-        background-color: black;
-        height: 900px;
-        border: 10px white;
+        background-color: #19ba00;
+        height: 250px;
+        border: 10px #19ba00;
         padding: 10px;
         margin: 8px;
     }
@@ -82,29 +82,29 @@
     }
     nav ul{
         display: flex;
-        flex-direction: row-reverse;
-        background-color: black;
+        flex-direction: row;
+        background-color: #094001;
     }
     nav ul li{
         list-style-type: none;
         margin: 2px;
         padding: 4px;
-        background-color: white;
+        background-color: #19ba00;
         color: black;
         border-radius: 2px;
     }
     nav ul li:hover{
         background-color: black;
-        color: white;
+        color: #19ba00;
     }
     nav ul li a{
-        background-color: white;
+        background-color: #19ba00;
         color: black;
         border-radius: 2px;
     }
     section{
         width: 900px;
-        background-image:url("reference to my image.jpg");
+        background-image:url("backimage.jpg");
         background-repeat: repeat-y;
     }
     article p{
@@ -112,7 +112,6 @@
     }
     footer{
         width: 900px;
-        background-color: white;
+        background-color: #128600;
         height: 100px;
     }
-</style>

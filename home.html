@@ -19,26 +19,58 @@
                     <li><a>Favorites</a></li>
                 </ul>
             </nav>
-            <div>
-                <a href=""
-                onmouseover="document.getElementById('logo').src='Images/';"
-                onmouseout="document.getElementById('logo').src='Logo.png';
-                "> <img src="Logo.png" alt="Logo" id="logo"></a> </div>
-            <img src="Images\Images\Banner.png" alt="Banner">
+            <a href="" onmouseover="document.getElementById('logo').src='Images/Logo2.jpg';"
+            onmouseout="document.getElementById('logo').src='Images/Logo.png';">
+                <img id="logo" src="Images\Logo.png" alt="Logo">
+            </a>
+            <img src="Images\Banner.png" alt="Banner">
         </header>
         <section>
-            <!--This is where the background image goes-->
             <article>
                 <h1>Welcome to Backyard Birds of Utah!</h1>
                     <p>If you love birdwatching like we do, you should enjoy looking around this site.</p>
                     <p>Take a look at our Bird Profiles and take the opportunity to complete our survey.</p>      
                     <div class="imageSwap">
                         <!--image swap things all the things-->
+ 
+        </script>
+    </head>
+    
+    <body onload="preloadImages()">
+
+            <p class="instructions">
+    
+            <div id="thumbs">
+                <img src="Images\thumbnails\duckSm.jpg" alt="Duck"
+               onmouseover="swapImage(0);" />
+                <img src="Images\thumbnails\HeronSm.jpg" alt="Heron"
+               onmouseover="swapImage(1);" />
+                <img src="Images\thumbnails\PalicanSm.jpg" alt="Palican"
+               onmouseover="swapImage(2);" />
+                <img src="Images\thumbnails\GeeseSm.jpg" alt="Geese"
+               onmouseover="swapImage(3);" />
+               <br/>
+            
+            </div>
+               
+            <div id="image">
+                <img id="theImage" src="Images/fullsize/duckLg.jpg" alt="Bald Eagle" />
+                <h3 id="bottomText">Brave Bald Eagle</h3>
+            </div> 
                     </div>
                     <div class="miniTruibutes">
-                        <h2>Title</h2>
-                        <p>Copied from tributes</p>
-                        <img>
+                        <h2>Tributes</h2>
+                        <h4>Wendy Smith</h4>
+        <img src="Images/thumbnails/BaldEagleSm.jpg" alt="eagle">
+        <p>Wow!!! Who would have thought all these birds live in Utah. I was attracted to the Birds of Utah calendar because of the great horned owl on the cover. I especially like finding and watching raptors such as: hawks, bald and golden eagles, vultures and owls... <a href="#">More</a></p> 
+        
+        
+        
+        <p>A repeat customer, 
+        
+        Wendy Smith, 
+        Salt Lake city</p> 
+                        
                     </div>
             </article>
         </section>
@@ -48,10 +80,6 @@
                 <p>This web site has been created solely for educational purposes.</p>
             </div>
         </footer>
-
-<p>
-The content of the document goes here . . .
-</p>
 
 </body>
 </html>
